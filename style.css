@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.content-with-text{
+    width: 50%;
+}
+.tutorial-with-text{
+    width: 80%;
+}
+.img-tutorial{
+    width: 40%;
+}
+.tutorial-padding-left{
+    padding-left: 5rem;
+}
+#content-2{
+    width: 75%;
+    background-color: #232429;
+}
+#content-7{
+    background-color: #232429;
+    color: white;
+    width: 75%;
+}
+#content-map{
+    width: 75%;
+}
+#button-feature{
+    position: relative;
+}
+#carouselExampleIndicators{
+    width: 40%;
+}
+#btn-feature{
+    width: 55%;
+}
+#features{
+    color: #59e5a8;
+}
+#footer{
+    width: 100%;
+    margin-top: 4rem;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    color: #59e5a8;
+    text-decoration: none;
+}
+.card{
+    width: 16rem;
+}
+.feature-btn-title{
+    font-family: 'Poppins', sans-serif;
+}
+.feature-btn-line{
+    color: rgb(148, 148, 148);
+    font-family: 'Poppins', sans-serif;
+}
+.bg-button-feature{
+    width: 250px;
+    height: 150px;
+    background-color: #28292e;
+    border-radius: 1rem;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.708);
+}
+.get-started-hr{
+    border: 1px black solid;
+}
+.map-container{
+    width: 75%;
+    background-color: #28292e;
+}
+.find-us-container{
+    z-index: 3;
+    background-color: #28292e;
+}
+.map-box{
+    border: 4px solid #28292e;
+}
+@media screen and (max-width: 1440px) {
+    #carouselExampleIndicators{
+        width: 100%;
+    }
+    #btn-feature{
+        width: 100%;
+        justify-content: start !important;
+    }
+    #feature-display{
+        flex-direction: column !important;
+    }
+}
+@media screen and (max-width: 800px) {
+    .content-with-text{
+        width: 100%;
+    }
+    .tutorial-with-text{
+        width: 100%;
+    }
+    .img-tutorial{
+        width: 100%;
+    }
+    .tutorial-padding-left{
+        padding-left: 0;
+    }
+    .android-content{
+        flex-direction: column !important;
+    }
+    .map-container{
+        width: 100%;
+        flex-direction: column;
+        position: relative !important;
+        translate: -50% 60% !important;
+        -ms-transform: translate(0%, -50%) !important;
+        -webkit-transform: translate(0%, -50%) !important;
+        transform: translate(0%, -50%) !important;
+    }
+    .text-map-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .none-android{
+        display: none !important;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .card{
+        width: 12rem;
+        height: auto;
+    }
+    .bg-button-feature{
+        width: 170px;
+        height: 350px;
+    }
+    .bg-button-feature{
+        height: fit-content;
+    }
+    .footer-android{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto !important;
+    }
+    }
